@@ -1,0 +1,53 @@
+   html.body {font-family: Roboto,sans-serif;
+            margin: 0; scroll-behavior: smooth;}
+            .header{
+                text-align: center;
+            }
+            #wrapper{display: inline-flex;100%;background-color: burlywood;}
+            #sidebar{
+            ;background-color: lavenderblush;background-image:url(../images/oriental.png);background-repeat: repeat;}
+            .contentinfo {width: 60%; height: 50%; margin-left: 20px;}
+            .list{}
+            .menu{}
+            .list{list-style: none;margin: 0;
+    margin-bottom: 10px;}
+            .links{}
+            .title{font-family: times new roman,sans-serif;
+            background-color: beige;padding: 10px}
+            #footer{text-align: center;font-family: times new roman,sans-serif;
+            background-color: beige;}
+            a.links{color: black; list-style: none; text-decoration: none;    margin: 0;
+    line-height: 1.4;font-weight: 600;}
+            .image{border-radius: 500px;    width: 80%;
+    height: %;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: auto; */
+    display: block}
+            .menu-list{padding: 10px;
+    text-align: center;list-style: none;}
+            .list li:first-child {
+    list-style: none;
+                font-weight: 600;}
+
+section#section-interests, #section-skills {
+    float: left;
+    width: 50%;}
+.inline-flex {
+    display: inline-flex;
+}
+.full-width {
+    width: 100%;
+}
+span.min-width {
+    min-width: 20%;
+}
+a.links:hover {
+    color: cornflowerblue;
+}
+@media only screen and (min-width:400px){.wrapper{display:grid; width: 100%;} .sidebar{width: 100%; text-align: center}.image{width: 50%}}
+@media only screen and (min-width:768px) {.wrapper{display:inline-flex;width: 100%%;}.sidebar{ display: block; width:30%; text-align: center}.image{width:80%}}
+@media only screen and (min-width:992px){.wrapper{display: inline-flex;width: 100%}.sidebar{display:block;width: 20%; text-align: center}.image{width:90%}}
+.email {
+    width: 30%;
+}
